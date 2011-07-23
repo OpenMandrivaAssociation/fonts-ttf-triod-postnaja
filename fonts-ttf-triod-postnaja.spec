@@ -29,8 +29,7 @@ cd %{pkgname}-%{version}
 cd %{_builddir}/%{pkgname}-%{version}
 for sfdfile in *.sfd
 do
-  fontforge -c "Open(\"$sfdfile\")
-    Generate(\"$sfdfile\":r + \".ttf\")"
+  fontforge -lang=ff -c "Open(\"./$sfdfile\"); Generate(\"./$sfdfile\":r + \".ttf\")"
 done
 
 %install
