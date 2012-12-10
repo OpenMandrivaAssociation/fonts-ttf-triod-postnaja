@@ -60,3 +60,10 @@ ttmkfdir %{buildroot}%{_xfontdir}/TTF/triod-postnaja > %{buildroot}%{_xfontdir}/
 
 
 
+
+
+%changelog
+* Sat Jul 23 2011 Sergey Zhemoitel <serg@mandriva.org> 20100305-1mdv2012.0
++ Revision: 691280
+- imported package fonts-ttf-triod-postnaja
+
