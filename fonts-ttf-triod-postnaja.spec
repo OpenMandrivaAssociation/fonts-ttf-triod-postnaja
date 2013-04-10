@@ -15,7 +15,10 @@ BuildRequires: fontforge
 
 
 %description
-Triod Postnaja attempts to mimic the typefaces used to publish Old Church Slavonic service books prior to the 20th century. It also provides a range of Latin letters in the same style, sufficient for the needs of central, northern and western European languages.
+Triod Postnaja attempts to mimic the typefaces used to publish Old Church
+Slavonic service books prior to the 20th century. It also provides a range of
+Latin letters in the same style, sufficient for the needs of central, northern
+and western European languages.
 
 %prep
 #%setup -q -c -n %{pkgname}-%{version}
