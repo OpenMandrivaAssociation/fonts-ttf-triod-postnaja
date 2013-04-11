@@ -3,12 +3,11 @@
 Summary: Decorative font in Slavonic Church style
 Name: fonts-ttf-triod-postnaja
 Version: 20100305
-Release: %mkrel 1
+Release: 2
 License: OFL
 Group: System/Fonts/True type
 URL: http://io.debian.net/~danielj/
 Source0: http://io.debian.net/~danielj/triod-postnaja/%{pkgname}-%{version}.sfd.gz
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: freetype-tools
 BuildRequires: fontforge
@@ -23,10 +22,9 @@ and western European languages.
 %prep
 #%setup -q -c -n %{pkgname}-%{version}
 cd %_builddir
-%__rm -rf %{pkgname}-%{version}
 %__mkdir_p %{pkgname}-%{version}
 cd %{pkgname}-%{version}
-%__gzip -dc %{_sourcedir}/%{pkgname}-%{version}.sfd.gz > %{pkgname}-%{version}.sfd
+%__gzip -dc %{SOURCE0} > %{pkgname}-%{version}.sfd
 
 %build
 cd %{_builddir}/%{pkgname}-%{version}
