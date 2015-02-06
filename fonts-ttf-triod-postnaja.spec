@@ -3,7 +3,7 @@
 Summary: Decorative font in Slavonic Church style
 Name: fonts-ttf-triod-postnaja
 Version: 20100305
-Release: 2
+Release: 3
 License: OFL
 Group: System/Fonts/True type
 URL: http://io.debian.net/~danielj/
