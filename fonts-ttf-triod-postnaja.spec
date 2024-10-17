@@ -6,7 +6,7 @@ Version: 20100305
 Release: 3
 License: OFL
 Group: System/Fonts/True type
-URL: http://io.debian.net/~danielj/
+URL: https://io.debian.net/~danielj/
 Source0: http://io.debian.net/~danielj/triod-postnaja/%{pkgname}-%{version}.sfd.gz
 BuildArch: noarch
 BuildRequires: freetype-tools
